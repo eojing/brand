@@ -36,16 +36,16 @@ img{width: 100%; display: block;}
     position: absolute;
     max-width: 80vw;
     width: 100%;
-    max-height: 13.8889vw;
+    max-height: 14.35vw;
     height: 100%;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .bottom_btn.share{
     bottom: 20.35%;
-    left: 9%;
 }
 
 .bottom_btn.notice{
     bottom: 14.7%;
-    left: 9%;
 }
