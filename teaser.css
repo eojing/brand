@@ -36,11 +36,11 @@ video{width: 100%; display: block;}
     transform: translateX(-50%);
 }
 
-.bottom_btn.share{
+.bottom_btn.notice{
     bottom: 20.35%;
 }
 
-.bottom_btn.notice{
+.bottom_btn.share{
     bottom: 14.7%;
 }
 
