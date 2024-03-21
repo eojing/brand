@@ -3,9 +3,9 @@ body{background: #0F0A07;}
 img{width: 100%; display: block;}
 .wrap{max-width: 1080px; width: 100%; margin: 0 auto; text-align: center;}
 .cont{position: relative;}
-.text_img{max-width: 69.4444vw; width: 100%; position: absolute; bottom: 22.98%; left: 50%; transform: translateX(-50%); z-index: 100;}
-.down_arrow{max-width: 6.6667vw; width: 100%; position: absolute; bottom: 3.9%; left: 50%; transform: translateX(-50%); z-index: 100;}
-.arrow_click{max-width: 11.1111vw; width: 100%; max-height: 11.1111vw; height: 100%; position: absolute; bottom: 2.5%; left: 50%; transform: translateX(-50%); z-index: 100;}
+.text_img{max-width: 69.4444vw; width: 100%; position: absolute; top: 50vw; left: 50%; transform: translateX(-50%); z-index: 100;}
+.down_arrow{display: block; max-width: 6.6667vw; width: 100%; padding: 4.4444vw; margin: 15.5556vw auto 0; }
+.arrow_click{display: block; max-width: 11.1111vw; width: 100%; max-height: 11.1111vw; height: 100%; z-index: 100;}
 .black_bg{background-color: #000; opacity: 0.6; position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1; }
 .close_btn{position: absolute; top: 2.5vw; right: 2.7778vw; max-width: 6.1111vw; width: 100%; z-index: 100;}
 video{width: 100%; display: block;}
@@ -18,12 +18,12 @@ video{width: 100%; display: block;}
     max-height: 15.65vw;
     height: 100%;
     position: absolute;
-    bottom: 20%;
+    bottom: 39.8%;
     left: 16%;
 }
 
 .top_btn.notice{
-    bottom: 0;
+    bottom: 24.6%;
 }
 .bottom_btn{
     display: block;
@@ -44,13 +44,23 @@ video{width: 100%; display: block;}
     bottom: 14.7%;
 }
 
+
+.top_scroll_btn{max-width: 15vw; width: 100%; position: sticky; bottom: 8.3333vw; left: 82.2222vw; z-index: 10; opacity: 0; pointer-events: none; transition: all 0.2s ease-in-out;}
+
+.top_scroll_btn_on{opacity: 1; pointer-events: all;}
+
 @media (min-width : 700px) {
     .wrap{max-width: 400px;}
-    .text_img{max-width: 277.77px;}
-    .down_arrow{width: 26.66px;}
+    .text_img{max-width: 277.77px; top: 200px;}
+    .down_arrow{width: 26.66px; padding: 17.778px; margin-top: 62.222px;}
     .arrow_click{width: 44.44px; height: 44.44px;}
     .top_btn{width: 188.88px; height: 62.59px;}
     .bottom_btn{width: 320px; height: 57.39px;}
     .close_btn{max-width: 24.44px; top: 10px; right: 11.111px;}
     .bg_img{height: 777.77px;}
+    .top_scroll_btn{max-width: none;
+        width: 60px;
+        right: auto;
+        bottom: 33.333px;
+        margin-right: 11.111px;}
 }
