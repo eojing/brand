@@ -51,6 +51,6 @@ video{width: 100%; display: block;}
     .arrow_click{width: 44.44px; height: 44.44px;}
     .top_btn{width: 188.88px; height: 62.59px;}
     .bottom_btn{width: 320px; height: 57.39px;}
-    .close_btn{max-width: 24.44px;}
+    .close_btn{max-width: 24.44px; top: 10px; right: 11.111px;}
     .bg_img{height: 777.77px;}
 }
