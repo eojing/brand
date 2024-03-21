@@ -9,7 +9,8 @@ down_arrow.addEventListener('click',function(){
 
 const shareBtn = document.querySelector('.share');
 
-shareBtn.addEventListener('click',function(){
+shareBtn.addEventListener('click',function(e){
+    e.preventDefault();
     window.navigator.share({
         title: '보물썸', // 공유될 제목
         text: '보물썸이벤트', // 공유될 설명
