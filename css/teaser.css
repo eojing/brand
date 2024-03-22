@@ -7,7 +7,7 @@ video{width: 100%; display: block;}
 .logo{position: absolute;}
 .bg_img{height: 194.4444vw;}
 .black_bg{background-color: #000; opacity: 0.6; position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1; }
-.text_img{max-width: 69.4444vw; width: 100%; position: absolute; top: 50vw; left: 50%; transform: translateX(-50%); z-index: 100;}
+.text_img{max-width: 69.4444vw; width: 100%; position: absolute; top: 40vw; left: 50%; transform: translateX(-50%); z-index: 100;}
 
 .down_arrow_wrap{position: relative;}
 .down_arrow{display: block; max-width: 6.6667vw; width: 100%; margin: 15.5556vw auto 0; }
