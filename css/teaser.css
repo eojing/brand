@@ -4,9 +4,11 @@ body{background: #0F0A07;}
 
 .close_btn{position: absolute; top: 2.5vw; right: 2.7778vw; max-width: 6.1111vw; width: 100%; z-index: 100;}
 video{width: 100%; display: block;}
-.logo{position: absolute;}
-.bg_img{height: 194.4444vw;}
-.black_bg{background-color: #000; opacity: 0.6; position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1; }
+.logo{position: absolute; z-index: 3;}
+.bg_img, .bg_video{height: 194.4444vw;}
+.bg_img{position: absolute; z-index: 1;}
+.bg_video{position: relative; z-index: 2; overflow: hidden;}
+.black_bg{background-color: #000; opacity: 0.6; position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 10; }
 .text_img{max-width: 69.4444vw; width: 100%; position: absolute; top: 44vw; left: 50%; transform: translateX(-50%); z-index: 100;}
 
 .down_arrow_wrap{position: relative;}
@@ -35,7 +37,7 @@ video{width: 100%; display: block;}
 
 
     .wrap{max-width: 400px;}
-    .bg_img{height: 630px;}
+    .bg_img, .bg_video{height: 630px;}
     .text_img{max-width: 211px; top: 116px;}
     .down_arrow{width: 26.66px; margin-top: 24px;}
     .down_arrow_click{width: 33px; height: 33px; top: -3px;}
