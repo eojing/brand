@@ -29,7 +29,7 @@ video{width: 100%; display: block;}
 
 
 
-@media (min-width : 700px) {
+@media (min-width : 650px) {
 
     .logo img{width: 75%; margin: 0 auto;}
 
