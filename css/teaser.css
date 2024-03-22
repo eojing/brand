@@ -36,8 +36,8 @@ video{width: 100%; display: block;}
 
     .wrap{max-width: 400px;}
     .text_img{max-width: 211px; top: 137px;}
-    .down_arrow{width: 26.66px; margin-top: 28px;}
-    .down_arrow_click{width: 33px; height: 33px; top: -6px;}
+    .down_arrow{width: 26.66px; margin-top: 24px;}
+    .down_arrow_click{width: 33px; height: 33px; top: -3px;}
     .top_btn{width: 144.88px; height: 48.59px; bottom: 173px;}
     .top_btn.share{bottom: 90.7px;}
     .top_btn.notice{bottom: 33px;}
