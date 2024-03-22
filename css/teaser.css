@@ -30,12 +30,17 @@ video{width: 100%; display: block;}
 
 
 @media (min-width : 700px) {
+
+    .logo img{width: 75%; margin: 0 auto;}
+
+
     .wrap{max-width: 400px;}
-    .text_img{max-width: 277.77px; top: 200px;}
-    .down_arrow{width: 26.66px; margin-top: 62.222px;}
-    .down_arrow_click{width: 44.44px; height: 44.44px; top: -7px;}
-    .top_btn{width: 188.88px; height: 62.59px; bottom: 173px;}
-    .top_btn.notice{bottom: 98px;}
+    .text_img{max-width: 211px; top: 137px;}
+    .down_arrow{width: 26.66px; margin-top: 28px;}
+    .down_arrow_click{width: 33px; height: 33px; top: -6px;}
+    .top_btn{width: 144.88px; height: 48.59px; bottom: 173px;}
+    .top_btn.share{bottom: 90.7px;}
+    .top_btn.notice{bottom: 33px;}
     .bottom_btn{width: 320px; height: 57.39px;}
     .close_btn{max-width: 24.44px; top: 10px; right: 11.111px;}
     .bg_img{height: 777.77px;}
